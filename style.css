@@ -1,0 +1,229 @@
+/* Basic */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #18191f;
+}
+
+/* Reuseable CSS */
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 50px;
+  color: #575757;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 700;
+  color: #707070;
+}
+
+.paragraph-text {
+  margin: 30px 0;
+  color: #828282;
+}
+
+.blue-color {
+  color: #099bf8;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+  background: linear-gradient(45deg, #13b9fb, #048af7);
+  box-shadow: 0px 2px 30px rgba(73, 201, 252, 0.5);
+  border-radius: 30px;
+  padding: 15px 30px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexible-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.half-width {
+  width: 50%;
+  padding: 0 25px;
+}
+
+.width-1-of-3 {
+  width: 33.33%;
+  padding: 0 25px;
+}
+
+.width-1-of-4 {
+  width: 25%;
+  padding: 0 25px;
+}
+
+.section-title {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto 70px auto;
+  text-align: center;
+}
+
+/* Banner Area */
+#banner-area {
+  padding: 30px 0 50px 0;
+}
+
+/* About Area */
+#about-area {
+  background-image: url('images/about-me-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+#about-image {
+  width: 350px;
+}
+
+/* Recipies Area */
+#recipies-area {
+  padding: 70px 0;
+}
+
+.recipe-card {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.recipe-card img {
+  border-radius: 20px;
+}
+
+.recipe-card .recipe-title {
+  color: #18191f;
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.recipe-card .recipe-description {
+  margin: 15px 0 25px 0;
+  color: #18191f;
+}
+
+/* Expert Area */
+#expert-area {
+  padding: 50px 0 100px 0;
+}
+
+.expert-box img {
+  width: 100%;
+}
+
+/* Contact Area */
+#contact-area {
+  padding-bottom: 70px;
+}
+
+#contact-form {
+  width: 650px;
+  max-width: 100%;
+  box-shadow: 0 0 20px rgb(0 0 0 / 21%);
+  padding: 50px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #828282;
+}
+
+#contact-form textarea {
+  height: 100px;
+}
+
+/* Footer Area */
+footer {
+  padding: 40px 0 60px 0;
+  background-color: #0b0d17;
+  text-align: center;
+}
+
+footer .logo {
+  color: #828282;
+}
+
+/* Media  Query */
+/* For Tablet */
+@media only screen and (max-width: 991px) {
+  .flexible-content {
+    align-items: flex-start;
+  }
+
+  .half-width {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .width-1-of-3,
+  .width-1-of-4 {
+    width: 50%;
+    padding: 20px;
+  }
+}
+
+/* For Mobile */
+@media only screen and (max-width: 991px) {
+  .flexible-content {
+    flex-direction: column;
+  }
+
+  .half-width,
+  .width-1-of-3,
+  .width-1-of-4 {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .half-width {
+    padding: 50px 0;
+  }
+
+  #contact-form {
+    padding: 50px 25px;
+  }
+
+  section,
+  footer {
+    padding: 0 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
