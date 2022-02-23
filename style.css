@@ -35,6 +35,10 @@ h1 {
   color: #242424;
 }
 
+.white-color {
+  color: #ffffff;
+}
+
 .yellow-color {
   color: #ffad5a;
 }
@@ -83,6 +87,11 @@ h1 {
   padding: 0 25px;
 }
 
+.width-2-of-3 {
+  width: 66.66%;
+  padding: 0 25px;
+}
+
 .width-1-of-4 {
   width: 25%;
   padding: 0 25px;
@@ -100,16 +109,9 @@ h1 {
   padding: 30px 0 50px 0;
 }
 
-/* About Area */
-#about-area {
-  background-image: url('images/about-me-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 70px;
-}
-
-#about-image {
-  width: 350px;
+/* Global Community Area */
+#global-community-area {
+  padding: 100px 0;
 }
 
 /* Recipies Area */
@@ -215,6 +217,7 @@ footer .logo {
 
   .half-width,
   .width-1-of-3,
+  .width-2-of-3,
   .width-1-of-4 {
     width: 100%;
     padding: 30px 0;
