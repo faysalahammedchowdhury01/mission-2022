@@ -20,36 +20,46 @@ p {
 
 h1 {
   font-size: 50px;
-  color: #575757;
+  color: #333333;
   font-weight: 700;
 }
 
 .heading {
   font-size: 35px;
   font-weight: 700;
-  color: #707070;
+  color: #333333;
 }
 
 .paragraph-text {
   margin: 30px 0;
-  color: #828282;
+  color: #242424;
 }
 
-.blue-color {
-  color: #099bf8;
+.yellow-color {
+  color: #ffad5a;
+}
+
+.border-left {
+  border-left: 4px solid #ff5959;
+  padding-left: 10px;
 }
 
 .btn {
   border: none;
   text-decoration: none;
-  background: linear-gradient(45deg, #13b9fb, #048af7);
-  box-shadow: 0px 2px 30px rgba(73, 201, 252, 0.5);
-  border-radius: 30px;
-  padding: 15px 30px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  padding: 15px 35px;
   color: #ffffff;
   display: inline-block;
-  margin-top: 10px;
   cursor: pointer;
+  border: 2px solid #ff5959;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: #242424;
+  background-color: transparent;
 }
 
 .wrapper {
