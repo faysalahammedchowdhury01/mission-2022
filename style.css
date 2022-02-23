@@ -24,6 +24,10 @@ h1 {
   font-weight: 700;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .heading {
   font-size: 35px;
   font-weight: 700;
@@ -41,6 +45,18 @@ h1 {
 
 .yellow-color {
   color: #ffad5a;
+}
+
+.bg-light-blue {
+  background-color: #edf5f6;
+}
+
+.bg-light-red {
+  background-color: #fff4d6;
+}
+
+.bg-light-yellow {
+  background-color: #ffeeee;
 }
 
 .border-left {
@@ -109,56 +125,70 @@ h1 {
   padding: 30px 0 50px 0;
 }
 
+/* Mission Area */
+#mission-area {
+  padding-bottom: 100px;
+}
+
+.mission-card {
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.mission-card img {
+  width: 120px;
+}
+
+.mission-card .mission-title {
+  color: #18191f;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.mission-card .mission-description {
+  margin: 15px 0 25px 0;
+  color: #18191f;
+}
+
 /* Global Community Area */
 #global-community-area {
   padding: 100px 0;
 }
 
-/* Recipies Area */
-#recipies-area {
-  padding: 70px 0;
-}
-
-.recipe-card {
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  border-radius: 30px;
-  padding: 15px;
-}
-
-.recipe-card img {
-  border-radius: 20px;
-}
-
-.recipe-card .recipe-title {
-  color: #18191f;
-  margin-top: 30px;
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.recipe-card .recipe-description {
-  margin: 15px 0 25px 0;
-  color: #18191f;
-}
-
-/* Expert Area */
-#expert-area {
+/* Showcase Area */
+#showcase-area {
   padding: 50px 0 100px 0;
 }
 
-.expert-box img {
+.project-box {
+  border: 1px solid #e4e4e4;
+}
+
+.project-box img {
   width: 100%;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.project-box h3 {
+  padding: 15px;
+}
+
+/* Build Corona App Area */
+.corona-app-img {
+  width: 350px;
+  max-width: 100%;
 }
 
 /* Contact Area */
 #contact-area {
-  padding-bottom: 70px;
+  padding: 70px 0;
 }
 
 #contact-form {
+  background-color: #ffffff;
   width: 650px;
   max-width: 100%;
-  box-shadow: 0 0 20px rgb(0 0 0 / 21%);
   padding: 50px;
   border-radius: 10px;
   margin: auto;
@@ -186,7 +216,7 @@ footer {
 }
 
 footer .logo {
-  color: #828282;
+  color: #999999;
 }
 
 /* Media  Query */
